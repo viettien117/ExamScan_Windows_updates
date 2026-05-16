@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>ExamScan Updates</title>
+    <link>https://viettien117.github.io/ExamScan_Windows_updates/appcast.xml</link>
+    <description>Auto-update feed for ExamScan</description>
+    <language>vi</language>
+
+    <item>
+      <title>Version 1.0.9</title>
+      <pubDate>Fri, 15 May 2026 23:30:00 +0700</pubDate>
+      <sparkle:version>1.0.9</sparkle:version>
+      <description><![CDATA[
+        <h3>Version 1.0.9</h3>
+        <ul>
+          <li>Release new Version 1.0.9</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.9/ExamScan-1.0.9-x64.msi"
+        length="22308352"
+        type="application/octet-stream"
+        sparkle:edSignature="ylvxoJn9JhcvH76snpd64izhYVP9P6VJsVpurb24H28MnU3tiYZDMQmx1dzu9Zz39FuUbO8iv5iDyRrAN617Bg==" />
+    </item>
+
+  </channel>
+</rss>
