@@ -7,20 +7,21 @@
     <language>vi</language>
 
     <item>
-      <title>Version 1.0.9</title>
-      <pubDate>Fri, 15 May 2026 23:30:00 +0700</pubDate>
-      <sparkle:version>1.0.9</sparkle:version>
+      <title>Version 1.0.10</title>
+      <pubDate>Sat, 16 May 2026 13:00:00 +0700</pubDate>
+      <sparkle:version>1.0.10</sparkle:version>
       <description><![CDATA[
-        <h3>Version 1.0.9</h3>
+        <h3>Version 1.0.10</h3>
         <ul>
-          <li>Release new Version 1.0.9</li>
+          <li>Đổi tên phần mềm thành ExamScan.</li>
+          <li>Cải thiện kênh cập nhật tự động.</li>
         </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.9/ExamScan-1.0.9-x64.msi"
-        length="22308352"
+        url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.10/ExamScan-1.0.10-x64.msi"
+        length="22308864"
         type="application/octet-stream"
-        sparkle:edSignature="ylvxoJn9JhcvH76snpd64izhYVP9P6VJsVpurb24H28MnU3tiYZDMQmx1dzu9Zz39FuUbO8iv5iDyRrAN617Bg==" />
+        sparkle:edSignature="BahLLykrizHrV82Ic4KSmFBE7BTm+RhsTkPI7lwltSuzSC/OazpmRgxjKdmh2bB1ZWKNGKaQRv7HrcCwMRghBA==" />
     </item>
 
   </channel>
