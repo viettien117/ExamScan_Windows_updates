@@ -3,7 +3,7 @@
 **App / Ứng dụng:** ExamScan (`vn.examscan`)
 **Developer / Nhà phát triển:** Nguyễn Việt Tiến (`viettien117`)
 **Contact / Liên hệ:** viettien117@gmail.com
-**Effective date / Hiệu lực từ:** 2026-05-23
+**Effective date / Hiệu lực từ:** 2026-05-24
 
 ---
 
@@ -37,7 +37,8 @@ happens **on your device**.
 | Camera images you capture in the app | To detect bubbles and grade the answer sheet | Stored only in the app's cache on your device; never uploaded |
 | Images you pick from the gallery | Same as above | Same as above |
 | Grading results (`.xlsx` export) | Saved when you tap "Export" | Saved to the folder **you** choose via the Android file picker |
-| App settings (language VI/EN, free grading credits) | App preferences | Stored only in the app's private `SharedPreferences` on your device |
+| App settings (language VI/EN, remaining grading credits) | App preferences | Stored only in the app's private `SharedPreferences` on your device |
+| Reward counters (last daily-login date, last share date, today's rewarded-ad count) | To enforce once-per-day daily/share bonuses and the progressive video reward | Stored only in the app's private `SharedPreferences` on your device |
 
 ### 3. Data shared with third parties
 
@@ -105,7 +106,24 @@ nothing for us to delete on request. You can:
 - Reset your Advertising ID in Android Settings to break ad personalization.
 - Email viettien117@gmail.com with any privacy question.
 
-### 8. Changes to this policy
+### 8. Outbound links and sharing
+
+When you tap a link inside the app (for example, **"Download templates"** in
+the About screen, the **bug-report email** address, or the **"Read privacy
+policy"** link), the app uses a standard Android Intent to open the URL in
+your default browser or email app. Once you leave ExamScan, your interaction
+is governed by the privacy policy of the destination site or app — not by us.
+
+The app also includes a **"Share app"** feature. When you tap it, the
+Android system share sheet opens so you can pick an app (Zalo, Messenger,
+Gmail, etc.) to forward a short promotional text plus a public link to
+ExamScan. The text is composed by us; the actual sending and any recipient
+data are handled entirely by the app you choose. **We do not see who you
+share with, nor do we collect anything from this action** — the only signal
+ExamScan stores is a local "last share date" used to limit the daily
+share bonus.
+
+### 9. Changes to this policy
 
 If we make material changes (e.g., add a new third-party SDK), we will update
 this page and the "Effective date" above before shipping the change.
@@ -142,6 +160,7 @@ không gửi ảnh bài làm về bất kỳ máy chủ nào.
 | Ảnh bạn chọn từ thư viện | Tương tự trên | Tương tự trên |
 | Kết quả `.xlsx` | Khi bạn bấm "Xuất file" | Lưu vào thư mục **bạn tự chọn** qua hộp thoại Android |
 | Cài đặt app (ngôn ngữ VI/EN, số lượt chấm còn) | Tuỳ chọn của bạn | Chỉ trong `SharedPreferences` riêng của app, trên máy |
+| Bộ đếm lượt thưởng (ngày nhận daily login gần nhất, ngày nhận share gần nhất, số video đã xem trong ngày) | Để giới hạn quà đăng nhập / chia sẻ mỗi ngày 1 lần và áp dụng thưởng tăng dần cho video | Chỉ trong `SharedPreferences` riêng của app, trên máy |
 
 ### 3. Dữ liệu chia sẻ với bên thứ ba
 
@@ -207,7 +226,23 @@ tôi xoá khi bạn yêu cầu. Bạn có thể:
 - Đặt lại Mã quảng cáo trong Cài đặt Android để cắt cá nhân hoá quảng cáo.
 - Email viettien117@gmail.com nếu có câu hỏi về quyền riêng tư.
 
-### 8. Thay đổi chính sách
+### 8. Liên kết ngoài và chia sẻ
+
+Khi bạn chạm vào một link bên trong app (vd **"Tải mẫu phiếu"** trong màn
+Giới thiệu, địa chỉ **email báo lỗi**, hoặc link **"Đọc đầy đủ chính sách"**),
+app dùng Android Intent chuẩn để mở URL trong trình duyệt hoặc app email
+mặc định của bạn. Khi đã rời ExamScan, mọi tương tác sẽ được điều chỉnh
+bởi chính sách quyền riêng tư của trang đích — không phải của chúng tôi.
+
+App cũng có chức năng **"Chia sẻ app"**. Khi bạn chạm vào, hệ thống Android
+mở share sheet để bạn chọn app (Zalo, Messenger, Gmail...) gửi một đoạn
+text quảng bá ngắn kèm link công khai của ExamScan. Đoạn text do chúng tôi
+soạn; việc gửi và mọi dữ liệu người nhận được xử lý hoàn toàn bởi app mà
+bạn chọn. **Chúng tôi không biết bạn chia sẻ với ai, cũng không thu thập
+gì từ thao tác này** — tín hiệu duy nhất ExamScan lưu là "ngày share gần
+nhất" (cục bộ) để giới hạn thưởng chia sẻ mỗi ngày 1 lần.
+
+### 9. Thay đổi chính sách
 
 Khi có thay đổi đáng kể (vd thêm SDK bên thứ ba mới), chúng tôi sẽ cập
 nhật trang này và sửa "Hiệu lực từ" ở đầu trang trước khi phát hành.
