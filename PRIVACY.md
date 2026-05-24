@@ -2,7 +2,7 @@
 
 **App / Ứng dụng:** ExamScan (`vn.examscan`)
 **Developer / Nhà phát triển:** Nguyễn Việt Tiến (`viettien117`)
-**Contact / Liên hệ:** viettien117@gmail.com
+**Contact / Liên hệ:** Rubi.ExamScan@gmail.com
 **Effective date / Hiệu lực từ:** 2026-05-24
 
 ---
@@ -104,7 +104,7 @@ nothing for us to delete on request. You can:
 
 - Uninstall the app to remove all locally stored data.
 - Reset your Advertising ID in Android Settings to break ad personalization.
-- Email viettien117@gmail.com with any privacy question.
+- Email Rubi.ExamScan@gmail.com with any privacy question.
 
 ### 8. Outbound links and sharing
 
@@ -224,7 +224,7 @@ tôi xoá khi bạn yêu cầu. Bạn có thể:
 
 - Gỡ app để xoá toàn bộ dữ liệu cục bộ.
 - Đặt lại Mã quảng cáo trong Cài đặt Android để cắt cá nhân hoá quảng cáo.
-- Email viettien117@gmail.com nếu có câu hỏi về quyền riêng tư.
+- Email Rubi.ExamScan@gmail.com nếu có câu hỏi về quyền riêng tư.
 
 ### 8. Liên kết ngoài và chia sẻ
 
