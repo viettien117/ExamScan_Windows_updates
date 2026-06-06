@@ -7,6 +7,31 @@
     <language>vi</language>
 
     <item>
+      <title>Version 1.0.11</title>
+      <pubDate>Sun, 07 Jun 2026 00:46:45 +0700</pubDate>
+      <sparkle:version>1.0.11</sparkle:version>
+      <description><![CDATA[
+        <h3>Version 1.0.11</h3>
+        <ul>
+          <li>Tab "Giới thiệu" thiết kế lại với 8 sections + chữ đậm/cỡ chữ khác nhau, đồng bộ phong cách với bản Android.</li>
+          <li>Mở rộng giao diện chính từ 900 → 960 px để chứa thêm nội dung.</li>
+          <li>Thêm nút <b>"⚠ Báo lỗi"</b> ở tab "Chấm bài thi" — gom danh sách file lỗi, mở email mẫu với mô tả tự động (không tự attach ảnh, bảo vệ thông tin học sinh).</li>
+          <li>File Excel kết quả: thông báo lỗi song ngữ VI/EN, gom 3 cột lỗi (MSSV/Mã đề/Trắc nghiệm) thành 1 cột "Lỗi" duy nhất, có nhãn nguồn rõ ràng.</li>
+          <li>Danh sách ảnh bài thi: file lỗi tô đỏ + tooltip hover hiện nội dung lỗi chi tiết.</li>
+          <li>Click quảng cáo banner BaozDimsum: tăng từ +20 lên <b>+30 lượt</b>.</li>
+          <li>Tooltip ảnh DEBUG có chú thích màu khung (xanh dương = MSSV, vàng = mã đề, tím = trắc nghiệm) + màu vòng tròn (xanh lá = phát hiện, đỏ = đã tô).</li>
+          <li>Thông báo hết lượt thân thiện hơn — không còn cảnh báo "100 lượt" cứng nhắc.</li>
+          <li>Các fix UX khác: bilingual đầy đủ ở mọi thông báo, mẫu phiếu nhấn mạnh PDF + ảnh PNG mẫu.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.11/ExamScan-1.0.11-x64.msi"
+        length="19525120"
+        type="application/octet-stream"
+        sparkle:edSignature="22J4o2B3/dbdViljBFtdKBGbm/UD7aiJOtYZ7UjwRK7x5BzeeGiCgQgXLukmqvotHds4PdX4O/irMJ3L8uuDCg==" />
+    </item>
+
+    <item>
       <title>Version 1.0.10</title>
       <pubDate>Sat, 16 May 2026 13:00:00 +0700</pubDate>
       <sparkle:version>1.0.10</sparkle:version>
