@@ -1,8 +1,22 @@
 # ExamScan
 
-Phần mềm chấm bài thi trắc nghiệm tự động.
+**Phần mềm chấm bài thi trắc nghiệm tự động** — quét phiếu trả lời bằng camera hoặc scanner, có kết quả ngay lập tức.
 
-Repo này host **bản cài đặt mới nhất** và **kênh cập nhật tự động** cho phần mềm ExamScan.
+*Multi-platform automatic answer-sheet grader for paper-based multiple-choice exams. Scan with your camera, get results in seconds — no internet upload, all processing on-device.*
+
+## 🌐 Các nền tảng / Platforms
+
+| Nền tảng | Trạng thái | Tải về / Download |
+|---|---|---|
+| 🪟 **Windows** 10/11 (64-bit) | ✅ Đang phát hành | [Releases](https://github.com/viettien117/ExamScan_Windows_updates/releases/latest) tab bên dưới (file `.msi`) |
+| 🤖 **Android** | 🚧 Sắp ra mắt trên Google Play | Đang trong giai đoạn beta — liên hệ `Rubi.ExamScan@gmail.com` để tham gia thử nghiệm |
+| 🍎 **iOS** | 🚧 Đang phát triển | Coming soon |
+
+Tất cả nền tảng dùng chung **một thuật toán OpenCV C++ core** — kết quả chấm bài hoàn toàn giống nhau trên Windows, Android và iOS.
+
+---
+
+Repo này host **bản cài đặt Windows mới nhất** và **kênh cập nhật tự động** cho phần mềm ExamScan.
 
 > Trước đây phần mềm có tên "AnswerSheetGrader". Kênh cập nhật cũ tại
 > [AnswerSheetGrader-updates](https://github.com/viettien117/AnswerSheetGrader-updates)
