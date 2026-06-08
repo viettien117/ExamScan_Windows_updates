@@ -7,6 +7,26 @@
     <language>vi</language>
 
     <item>
+      <title>Version 1.0.12</title>
+      <pubDate>Mon, 08 Jun 2026 10:30:00 +0700</pubDate>
+      <sparkle:version>1.0.12</sparkle:version>
+      <description><![CDATA[
+        <h3>Version 1.0.12</h3>
+        <ul>
+          <li>Sửa thông báo lỗi trong file Excel kết quả cho chính xác hơn:</li>
+          <li>&nbsp;&nbsp;• Khung MSSV / Mã đề thi: <i>"Có cột không được tô đen"</i> hoặc <i>"Có cột được tô đen nhiều lần"</i> (thay vì chung chung <i>"Có ô chưa tô đen"</i>).</li>
+          <li>&nbsp;&nbsp;• Khung Trắc nghiệm: <i>"Có câu không được tô đen"</i> hoặc <i>"Có câu được tô đen nhiều lần"</i> (đúng từ ngữ cho phần trả lời).</li>
+          <li>Đồng bộ wording sang phiên bản tiếng Anh (EN) trong cột Lỗi.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.12/ExamScan-1.0.12-x64.msi"
+        length="19525120"
+        type="application/octet-stream"
+        sparkle:edSignature="tIEnd6Ywc2rcs7kzBToKoXUTUHf1u9PeR/8iIlK3WYppkbef5VU394eGKz6MiSsS3qOIVMtQVNEeR8VsarlFCA==" />
+    </item>
+
+    <item>
       <title>Version 1.0.11</title>
       <pubDate>Sun, 07 Jun 2026 00:46:45 +0700</pubDate>
       <sparkle:version>1.0.11</sparkle:version>
