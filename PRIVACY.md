@@ -3,7 +3,7 @@
 **App / Ứng dụng:** ExamScan (`vn.examscan`)
 **Developer / Nhà phát triển:** Nguyễn Việt Tiến (`viettien117`)
 **Contact / Liên hệ:** Rubi.ExamScan@gmail.com
-**Effective date / Hiệu lực từ:** 2026-05-24
+**Effective date / Hiệu lực từ:** 2026-07-01
 
 ---
 
@@ -30,6 +30,11 @@ ExamScan has **no user accounts** and **no login**. The app does not send
 any answer sheet image or grading result to our servers — all OCR and grading
 happens **on your device**.
 
+The app **does** send anonymous usage statistics, crash/performance
+diagnostics, and a push-notification token to Google Firebase to operate and
+improve the app and to deliver notifications — see Section 3(c). This never
+includes your answer sheet images, grading results, or personal identifiers.
+
 ### 2. Data the app processes locally only
 
 | Data | Why | Where it goes |
@@ -42,7 +47,7 @@ happens **on your device**.
 
 ### 3. Data shared with third parties
 
-ExamScan uses **two** third-party services. Each has its own privacy policy:
+ExamScan uses **three** third-party services. Each has its own privacy policy:
 
 #### a) Google AdMob (advertising)
 
@@ -73,13 +78,31 @@ GitHub will see your IP address and standard HTTP headers when the app
 fetches these files. GitHub's policy:
 <https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement>
 
+#### c) Google Firebase (analytics, crash reporting, remote config, push notifications)
+
+The app uses Google Firebase SDKs to understand usage, improve stability,
+deliver remote settings, and send notifications. Firebase may collect:
+
+- **Analytics** — anonymous app-usage events (screens viewed, features used) and aggregate device info (model, OS version, language, country)
+- **Crashlytics** — crash and performance diagnostics (stack traces, device state) used to fix bugs
+- **Remote Config** — fetches configuration values (e.g., reward amounts) from Google's servers
+- **Cloud Messaging** — a device push token used to deliver notifications about news, updates, and offers
+- A pseudonymous device / installation identifier to support the above
+
+This data is used only to operate and improve ExamScan and is **not** used
+to track you across other companies' apps or websites. You can turn
+notifications off anytime in your device Settings. Google / Firebase policies:
+<https://firebase.google.com/support/privacy> and
+<https://policies.google.com/privacy>
+
 ### 4. Permissions the app requests
 
 | Permission | Why |
 |---|---|
-| `INTERNET` | Load AdMob ads and download promotional banner images from GitHub |
+| `INTERNET` | Load AdMob ads, download promotional banner images from GitHub, and connect to Google Firebase |
 | `CAMERA` (runtime) | Capture answer sheet photos in-app |
 | Read media images (Android 13+) / Read external storage (older) | Pick answer sheet photos from the gallery |
+| `POST_NOTIFICATIONS` (Android 13+, optional) | Show news, updates, and offers via push — you choose whether to allow; can be turned off anytime in Settings |
 
 The app does **not** request location, contacts, microphone, SMS, or any
 other sensitive permission.
@@ -152,6 +175,11 @@ ExamScan **không có tài khoản người dùng** và **không có đăng nh�
 thao tác nhận diện ô tròn và chấm điểm đều diễn ra **ngay trên máy bạn**,
 không gửi ảnh bài làm về bất kỳ máy chủ nào.
 
+App **có** gửi số liệu thống kê sử dụng ẩn danh, dữ liệu chẩn đoán sự
+cố/hiệu năng, và một mã thông báo đẩy (push token) tới Google Firebase để vận
+hành, cải thiện app và gửi thông báo — xem Mục 3(c). Phần này **không bao giờ**
+bao gồm ảnh bài làm, kết quả chấm, hay thông tin định danh cá nhân của bạn.
+
 ### 2. Dữ liệu app xử lý cục bộ
 
 | Dữ liệu | Mục đích | Lưu ở đâu |
@@ -164,7 +192,7 @@ không gửi ảnh bài làm về bất kỳ máy chủ nào.
 
 ### 3. Dữ liệu chia sẻ với bên thứ ba
 
-ExamScan dùng **hai** dịch vụ bên thứ ba. Mỗi bên có chính sách riêng:
+ExamScan dùng **ba** dịch vụ bên thứ ba. Mỗi bên có chính sách riêng:
 
 #### a) Google AdMob (quảng cáo)
 
@@ -193,13 +221,31 @@ GitHub sẽ thấy địa chỉ IP và HTTP header tiêu chuẩn của bạn khi
 file này. Chính sách GitHub:
 <https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement>
 
+#### c) Google Firebase (phân tích, báo lỗi, cấu hình từ xa, thông báo đẩy)
+
+App dùng các SDK Google Firebase để hiểu cách sử dụng, cải thiện độ ổn định,
+nhận cấu hình từ xa và gửi thông báo. Firebase có thể thu thập:
+
+- **Analytics** — sự kiện sử dụng app ẩn danh (màn hình đã xem, tính năng dùng) và thông tin thiết bị tổng hợp (kiểu máy, phiên bản HĐH, ngôn ngữ, quốc gia)
+- **Crashlytics** — dữ liệu chẩn đoán sự cố và hiệu năng (stack trace, trạng thái thiết bị) để sửa lỗi
+- **Remote Config** — tải các giá trị cấu hình (vd số lượt thưởng) từ máy chủ Google
+- **Cloud Messaging** — một mã push token của thiết bị để gửi thông báo về tin tức, cập nhật và ưu đãi
+- Một mã định danh thiết bị / bản cài đặt ẩn danh để phục vụ các mục đích trên
+
+Dữ liệu này chỉ dùng để vận hành và cải thiện ExamScan, **không** dùng để
+theo dõi bạn xuyên app/website của công ty khác. Bạn có thể tắt thông báo bất
+cứ lúc nào trong Cài đặt máy. Chính sách Google / Firebase:
+<https://firebase.google.com/support/privacy> và
+<https://policies.google.com/privacy>
+
 ### 4. Quyền app yêu cầu
 
 | Quyền | Mục đích |
 |---|---|
-| `INTERNET` | Tải quảng cáo AdMob và ảnh banner từ GitHub |
+| `INTERNET` | Tải quảng cáo AdMob, ảnh banner từ GitHub, và kết nối Google Firebase |
 | `CAMERA` (runtime) | Chụp ảnh bài làm trong app |
 | Đọc ảnh thư viện (Android 13+) / Đọc bộ nhớ ngoài (cũ) | Chọn ảnh bài làm từ thư viện |
+| `POST_NOTIFICATIONS` (Android 13+, tuỳ chọn) | Gửi tin tức, cập nhật, ưu đãi qua thông báo đẩy — bạn tự chọn cho phép; có thể tắt bất cứ lúc nào trong Cài đặt |
 
 App **không** yêu cầu quyền vị trí, danh bạ, micro, SMS, hay bất kỳ quyền
 nhạy cảm nào khác.
