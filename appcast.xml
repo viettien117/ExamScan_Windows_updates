@@ -7,6 +7,26 @@
     <language>vi</language>
 
     <item>
+      <title>Version 1.0.13</title>
+      <pubDate>Wed, 08 Jul 2026 15:40:00 +0700</pubDate>
+      <sparkle:version>1.0.13</sparkle:version>
+      <description><![CDATA[
+        <h3>Version 1.0.13</h3>
+        <ul>
+          <li><b>Hỗ trợ 5 ngôn ngữ:</b> Tiếng Việt, English, Bahasa Indonesia, Português, Español — bấm nút ngôn ngữ ở góc trên phải để chọn.</li>
+          <li>Thêm <b>"Chấm thử với phiếu mẫu"</b> — tải bộ phiếu mẫu và chấm thử ngay, không cần chuẩn bị gì.</li>
+          <li>Tự động nhận 3, 4, 5 hoặc 6 lựa chọn (A–F) cho mỗi câu.</li>
+          <li>Cải thiện màn "Giới thiệu" + nhiều tinh chỉnh giao diện.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.13/ExamScan-1.0.13-x64.msi"
+        length="19542016"
+        type="application/octet-stream"
+        sparkle:edSignature="gkefd/4JWOxH7LkJSfi9h2byrGrdWDhf1nTDnoToCsfBXhRFPzlxmWN8Ffkl20RnPEnONUObkVQjfF3LQXgLAg==" />
+    </item>
+
+    <item>
       <title>Version 1.0.12</title>
       <pubDate>Mon, 08 Jun 2026 10:30:00 +0700</pubDate>
       <sparkle:version>1.0.12</sparkle:version>
