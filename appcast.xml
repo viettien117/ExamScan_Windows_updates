@@ -7,6 +7,26 @@
     <language>vi</language>
 
     <item>
+      <title>Version 1.0.15</title>
+      <pubDate>Mon, 27 Jul 2026 16:00:00 +0700</pubDate>
+      <sparkle:version>1.0.15</sparkle:version>
+      <description><![CDATA[
+        <h3>Version 1.0.15</h3>
+        <ul>
+          <li><b>Tab "Giới thiệu" có thêm mục "Các phiên bản hiện có"</b> — kèm liên kết tải bản Windows, iOS, Android và <b>mã QR</b> để quét nhanh bằng camera điện thoại.</li>
+          <li>Tab "Chấm bài thi": đưa <b>"Chọn file đáp án" lên trên</b> "Chọn thư mục bài thi" cho đồng bộ với bản iOS / Android.</li>
+          <li>Quảng cáo hai bên hiển thị đúng tỉ lệ, sắc nét hơn; cửa sổ tự căn giữa màn hình.</li>
+          <li>Tinh gọn nội dung tab "Giới thiệu".</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.15/ExamScan-1.0.15-x64.msi"
+        length="19549696"
+        type="application/octet-stream"
+        sparkle:edSignature="e65zkl9NINjIV0rv1HGzDlTVmp1qSkD0WyVzImCmaOlgWp72n8mA90ySZYTblAkhRnb6jAD5jrNMz2E5ApWPBg==" />
+    </item>
+
+    <item>
       <title>Version 1.0.14</title>
       <pubDate>Mon, 27 Jul 2026 14:00:00 +0700</pubDate>
       <sparkle:version>1.0.14</sparkle:version>
