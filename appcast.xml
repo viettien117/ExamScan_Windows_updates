@@ -7,6 +7,25 @@
     <language>vi</language>
 
     <item>
+      <title>Version 1.0.14</title>
+      <pubDate>Mon, 27 Jul 2026 14:00:00 +0700</pubDate>
+      <sparkle:version>1.0.14</sparkle:version>
+      <description><![CDATA[
+        <h3>Version 1.0.14</h3>
+        <ul>
+          <li><b>Quảng cáo hai bên cửa sổ</b> — bổ sung 2 khung quảng cáo dọc ở hai bên, hiển thị đúng tỉ lệ, sắc nét.</li>
+          <li>Chuyển sang hệ thống quảng cáo dùng chung của bộ ExamSuite: quảng cáo được cập nhật nhanh hơn, ảnh mới tự động làm mới mà không cần cài lại.</li>
+          <li>Cửa sổ tự căn giữa màn hình khi khởi động.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.14/ExamScan-1.0.14-x64.msi"
+        length="19546112"
+        type="application/octet-stream"
+        sparkle:edSignature="haUq61eREushfoxcVEuMGjfqM04JvewKKYiHTUZ/YvO691nQshiCfi1sboKIsWAKPvrHiFs4LO7+u2Mf9FkJCA==" />
+    </item>
+
+    <item>
       <title>Version 1.0.13</title>
       <pubDate>Wed, 08 Jul 2026 15:40:00 +0700</pubDate>
       <sparkle:version>1.0.13</sparkle:version>
