@@ -7,6 +7,24 @@
     <language>vi</language>
 
     <item>
+      <title>Version 1.0.16</title>
+      <pubDate>Tue, 28 Jul 2026 19:00:00 +0700</pubDate>
+      <sparkle:version>1.0.16</sparkle:version>
+      <description><![CDATA[
+        <h3>Version 1.0.16</h3>
+        <ul>
+          <li><b>Sửa lỗi không đọc được file đáp án</b> — trước đây file <code>.xlsx</code> tạo bằng ExamMixer hoặc các công cụ ngoài Excel (LibreOffice, Google Sheets) bị báo <i>"File đáp án không đúng mẫu"</i> dù nội dung hoàn toàn đúng. Nay dùng được trực tiếp, không phải mở bằng Excel lưu lại nữa.</li>
+          <li>Đọc file Excel ổn định hơn: nhận đúng hàng trống, ô trống và các định dạng chữ khác nhau.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.16/ExamScan-1.0.16-x64.msi"
+        length="19551744"
+        type="application/octet-stream"
+        sparkle:edSignature="5Ji1zTtrVGsD3eWvogDQwEOd531BBJogkSaJGh/06iwgx8WUUI5qNNA5Xl6cw4PK2vd4LNJVSC/QO6J9+QOFCw==" />
+    </item>
+
+    <item>
       <title>Version 1.0.15</title>
       <pubDate>Mon, 27 Jul 2026 16:00:00 +0700</pubDate>
       <sparkle:version>1.0.15</sparkle:version>
