@@ -7,6 +7,25 @@
     <language>vi</language>
 
     <item>
+      <title>Version 1.0.17</title>
+      <pubDate>Wed, 05 Aug 2026 12:10:00 +0700</pubDate>
+      <sparkle:version>1.0.17</sparkle:version>
+      <description><![CDATA[
+        <h3>Version 1.0.17</h3>
+        <ul>
+          <li>Tab "Giới thiệu" có thêm mục <b>ExamMixer</b> — chương trình miễn phí trộn đề thi trắc nghiệm từ ngân hàng câu hỏi Word, xuất kèm bảng đáp án nạp thẳng vào ExamScan mà không phải gõ tay.</li>
+          <li>Thêm liên kết <b>trang web ExamScan</b> ngay dưới tên phần mềm ở tab "Giới thiệu".</li>
+          <li>Các liên kết trong tab "Giới thiệu" nay hiển thị rõ là liên kết và bấm được ổn định hơn.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.17/ExamScan-1.0.17-x64.msi"
+        length="19553280"
+        type="application/octet-stream"
+        sparkle:edSignature="G63/mYUyWFKiiIENpmsK4WxP0JtWmP/BZBE+AH/QKsSht0Yhw7EZGh1OM88mssFqRvnCUym7VTePYP7Mo+lMBA==" />
+    </item>
+
+    <item>
       <title>Version 1.0.16</title>
       <pubDate>Tue, 28 Jul 2026 19:00:00 +0700</pubDate>
       <sparkle:version>1.0.16</sparkle:version>
