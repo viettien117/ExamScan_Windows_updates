@@ -7,6 +7,22 @@
     <language>vi</language>
 
     <item>
+      <title>Version 1.0.20</title>
+      <pubDate>Sat, 08 Aug 2026 22:01:09 +0700</pubDate>
+      <sparkle:version>1.0.20</sparkle:version>
+      <description><![CDATA[
+        <h3>Version 1.0.20</h3>
+        <p><b>Lưu ý riêng cho bản này:</b> ExamScan chuyển sang cài tại <code>C:\Program Files\ExamScan</code> (trước đây là <code>C:\Program Files\RuBi\ExamScan</code>) cho thống nhất với ExamMixer. Vì thư mục cũ bị dời, <b>sau khi cập nhật xong bạn hãy mở lại ExamScan từ Start Menu hoặc lối tắt ngoài màn hình</b> — chỉ lần này thôi. Số lượt chấm và thống kê vẫn giữ nguyên.</p>
+        <ul>
+          <li><b>Tự bảo vệ dữ liệu:</b> chương trình giữ thêm một bản sao dự phòng của số lượt chấm và thống kê. Nếu các file này bị mất vì bất kỳ lý do gì, lần mở tiếp theo sẽ tự khôi phục.</li>
+          <li>Mục "Giới thiệu" gọn lại: bỏ thẻ "Người thực hiện", đưa phần "Liên hệ" xuống cuối.</li>
+          <li>Bộ cài nhẹ bớt, không còn kèm file gỡ lỗi.</li>
+        </ul>
+      ]]></description>
+      <enclosure url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.20/ExamScan-1.0.20-x64.msi" length="75087805" type="application/octet-stream" sparkle:edSignature="acYusz2+5M9SjVFBSMFqRMrtCrogIS7HzUdI0VMJsvLj0tZUvMpNVBbpjJi0qQERl7su6l/CHF90k3nUx0EdAg==" />
+    </item>
+
+    <item>
       <title>Version 1.0.19</title>
       <pubDate>Sat, 08 Aug 2026 16:04:04 +0700</pubDate>
       <sparkle:version>1.0.19</sparkle:version>
