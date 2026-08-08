@@ -7,6 +7,29 @@
     <language>vi</language>
 
     <item>
+      <title>Version 1.0.19</title>
+      <pubDate>Sat, 08 Aug 2026 16:04:04 +0700</pubDate>
+      <sparkle:version>1.0.19</sparkle:version>
+      <description><![CDATA[
+        <h3>Version 1.0.19</h3>
+        <p><b>Bản làm mới toàn bộ giao diện.</b> Cách chấm bài, thứ tự các bước và file kết quả giữ nguyên như cũ — số lượt chấm và thống kê của bạn cũng được giữ lại khi cập nhật.</p>
+        <ul>
+          <li>Giao diện mới: cửa sổ bo góc, thanh tiêu đề riêng, chữ và màu rõ ràng hơn.</li>
+          <li>Cửa sổ tự thu cho vừa màn hình. Máy có màn hình nhỏ trước đây bị khuất phần dưới, nay không còn.</li>
+          <li><b>Số lượt chấm còn lại</b> hiển thị thêm ngay trên thanh tiêu đề, không bị che nữa.</li>
+          <li>Rê chuột vào phiếu bị lỗi để xem <b>chi tiết lỗi</b> của phiếu đó.</li>
+          <li>Nút báo lỗi trả lại đúng quy ước màu: <b>đỏ</b> là lỗi, <b>vàng</b> là cảnh báo, <b>xanh lá</b> là chấm xong không vấn đề.</li>
+          <li>Đổi ngôn ngữ nay dịch lại cả phần chi tiết lỗi của những phiếu đã chấm, đủ 5 thứ tiếng.</li>
+          <li>Sửa nút <b>"Tải mẫu phiếu"</b> — trước đây mở ra trang không tồn tại.</li>
+          <li>Nếu chương trình gặp sự cố, chi tiết được ghi vào file <i>crash.log</i> kèm hướng dẫn gửi về để khắc phục.</li>
+          <li>Không còn tự tắt khi file dữ liệu bị khoá hoặc bị đặt thuộc tính chỉ đọc.</li>
+        </ul>
+        <p><i>Lưu ý: file cài đặt lần này nặng hơn hẳn (khoảng 72 MB) vì đã kèm sẵn mọi thành phần cần thiết — máy không cần cài thêm gì.</i></p>
+      ]]></description>
+      <enclosure url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.19/ExamScan-1.0.19-x64.msi" length="75108413" type="application/octet-stream" sparkle:edSignature="6FXzMXILRhpGtzvCFkgbaJxuYFFhRC2BXbOUwGLal4qq7QiwYmdcA3h42lOlUlqUOE+p9/GGRzWxIkYuFmMhDQ==" />
+    </item>
+
+    <item>
       <title>Version 1.0.17</title>
       <pubDate>Wed, 05 Aug 2026 12:10:00 +0700</pubDate>
       <sparkle:version>1.0.17</sparkle:version>
@@ -18,11 +41,7 @@
           <li>Các liên kết trong tab "Giới thiệu" nay hiển thị rõ là liên kết và bấm được ổn định hơn.</li>
         </ul>
       ]]></description>
-      <enclosure
-        url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.17/ExamScan-1.0.17-x64.msi"
-        length="19553280"
-        type="application/octet-stream"
-        sparkle:edSignature="G63/mYUyWFKiiIENpmsK4WxP0JtWmP/BZBE+AH/QKsSht0Yhw7EZGh1OM88mssFqRvnCUym7VTePYP7Mo+lMBA==" />
+      <enclosure url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.17/ExamScan-1.0.17-x64.msi" length="19553280" type="application/octet-stream" sparkle:edSignature="G63/mYUyWFKiiIENpmsK4WxP0JtWmP/BZBE+AH/QKsSht0Yhw7EZGh1OM88mssFqRvnCUym7VTePYP7Mo+lMBA==" />
     </item>
 
     <item>
@@ -36,11 +55,7 @@
           <li>Đọc file Excel ổn định hơn: nhận đúng hàng trống, ô trống và các định dạng chữ khác nhau.</li>
         </ul>
       ]]></description>
-      <enclosure
-        url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.16/ExamScan-1.0.16-x64.msi"
-        length="19551744"
-        type="application/octet-stream"
-        sparkle:edSignature="5Ji1zTtrVGsD3eWvogDQwEOd531BBJogkSaJGh/06iwgx8WUUI5qNNA5Xl6cw4PK2vd4LNJVSC/QO6J9+QOFCw==" />
+      <enclosure url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.16/ExamScan-1.0.16-x64.msi" length="19551744" type="application/octet-stream" sparkle:edSignature="5Ji1zTtrVGsD3eWvogDQwEOd531BBJogkSaJGh/06iwgx8WUUI5qNNA5Xl6cw4PK2vd4LNJVSC/QO6J9+QOFCw==" />
     </item>
 
     <item>
@@ -56,11 +71,7 @@
           <li>Tinh gọn nội dung tab "Giới thiệu".</li>
         </ul>
       ]]></description>
-      <enclosure
-        url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.15/ExamScan-1.0.15-x64.msi"
-        length="19549696"
-        type="application/octet-stream"
-        sparkle:edSignature="e65zkl9NINjIV0rv1HGzDlTVmp1qSkD0WyVzImCmaOlgWp72n8mA90ySZYTblAkhRnb6jAD5jrNMz2E5ApWPBg==" />
+      <enclosure url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.15/ExamScan-1.0.15-x64.msi" length="19549696" type="application/octet-stream" sparkle:edSignature="e65zkl9NINjIV0rv1HGzDlTVmp1qSkD0WyVzImCmaOlgWp72n8mA90ySZYTblAkhRnb6jAD5jrNMz2E5ApWPBg==" />
     </item>
 
     <item>
@@ -75,11 +86,7 @@
           <li>Cửa sổ tự căn giữa màn hình khi khởi động.</li>
         </ul>
       ]]></description>
-      <enclosure
-        url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.14/ExamScan-1.0.14-x64.msi"
-        length="19546112"
-        type="application/octet-stream"
-        sparkle:edSignature="haUq61eREushfoxcVEuMGjfqM04JvewKKYiHTUZ/YvO691nQshiCfi1sboKIsWAKPvrHiFs4LO7+u2Mf9FkJCA==" />
+      <enclosure url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.14/ExamScan-1.0.14-x64.msi" length="19546112" type="application/octet-stream" sparkle:edSignature="haUq61eREushfoxcVEuMGjfqM04JvewKKYiHTUZ/YvO691nQshiCfi1sboKIsWAKPvrHiFs4LO7+u2Mf9FkJCA==" />
     </item>
 
     <item>
@@ -95,11 +102,7 @@
           <li>Cải thiện màn "Giới thiệu" + nhiều tinh chỉnh giao diện.</li>
         </ul>
       ]]></description>
-      <enclosure
-        url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.13/ExamScan-1.0.13-x64.msi"
-        length="19542016"
-        type="application/octet-stream"
-        sparkle:edSignature="gkefd/4JWOxH7LkJSfi9h2byrGrdWDhf1nTDnoToCsfBXhRFPzlxmWN8Ffkl20RnPEnONUObkVQjfF3LQXgLAg==" />
+      <enclosure url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.13/ExamScan-1.0.13-x64.msi" length="19542016" type="application/octet-stream" sparkle:edSignature="gkefd/4JWOxH7LkJSfi9h2byrGrdWDhf1nTDnoToCsfBXhRFPzlxmWN8Ffkl20RnPEnONUObkVQjfF3LQXgLAg==" />
     </item>
 
     <item>
@@ -115,11 +118,7 @@
           <li>Đồng bộ wording sang phiên bản tiếng Anh (EN) trong cột Lỗi.</li>
         </ul>
       ]]></description>
-      <enclosure
-        url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.12/ExamScan-1.0.12-x64.msi"
-        length="19525120"
-        type="application/octet-stream"
-        sparkle:edSignature="tIEnd6Ywc2rcs7kzBToKoXUTUHf1u9PeR/8iIlK3WYppkbef5VU394eGKz6MiSsS3qOIVMtQVNEeR8VsarlFCA==" />
+      <enclosure url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.12/ExamScan-1.0.12-x64.msi" length="19525120" type="application/octet-stream" sparkle:edSignature="tIEnd6Ywc2rcs7kzBToKoXUTUHf1u9PeR/8iIlK3WYppkbef5VU394eGKz6MiSsS3qOIVMtQVNEeR8VsarlFCA==" />
     </item>
 
     <item>
@@ -140,11 +139,7 @@
           <li>Các fix UX khác: bilingual đầy đủ ở mọi thông báo, mẫu phiếu nhấn mạnh PDF + ảnh PNG mẫu.</li>
         </ul>
       ]]></description>
-      <enclosure
-        url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.11/ExamScan-1.0.11-x64.msi"
-        length="19525120"
-        type="application/octet-stream"
-        sparkle:edSignature="22J4o2B3/dbdViljBFtdKBGbm/UD7aiJOtYZ7UjwRK7x5BzeeGiCgQgXLukmqvotHds4PdX4O/irMJ3L8uuDCg==" />
+      <enclosure url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.11/ExamScan-1.0.11-x64.msi" length="19525120" type="application/octet-stream" sparkle:edSignature="22J4o2B3/dbdViljBFtdKBGbm/UD7aiJOtYZ7UjwRK7x5BzeeGiCgQgXLukmqvotHds4PdX4O/irMJ3L8uuDCg==" />
     </item>
 
     <item>
@@ -158,11 +153,7 @@
           <li>Cải thiện kênh cập nhật tự động.</li>
         </ul>
       ]]></description>
-      <enclosure
-        url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.10/ExamScan-1.0.10-x64.msi"
-        length="22308864"
-        type="application/octet-stream"
-        sparkle:edSignature="BahLLykrizHrV82Ic4KSmFBE7BTm+RhsTkPI7lwltSuzSC/OazpmRgxjKdmh2bB1ZWKNGKaQRv7HrcCwMRghBA==" />
+      <enclosure url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.10/ExamScan-1.0.10-x64.msi" length="22308864" type="application/octet-stream" sparkle:edSignature="BahLLykrizHrV82Ic4KSmFBE7BTm+RhsTkPI7lwltSuzSC/OazpmRgxjKdmh2bB1ZWKNGKaQRv7HrcCwMRghBA==" />
     </item>
 
   </channel>
