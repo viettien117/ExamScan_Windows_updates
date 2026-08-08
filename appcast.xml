@@ -7,6 +7,18 @@
     <language>vi</language>
 
     <item>
+      <title>Version 1.0.21</title>
+      <pubDate>Sat, 08 Aug 2026 22:22:47 +0700</pubDate>
+      <sparkle:version>1.0.21</sparkle:version>
+      <description><![CDATA[
+        <h3>Version 1.0.21</h3>
+        <p><b>Sửa một lỗi làm mất số lượt chấm và thống kê.</b> Nếu Windows sửa chữa chương trình — bạn bấm "Repair" trong Cài đặt, hoặc Windows tự làm điều đó — thì toàn bộ số lượt chấm, thống kê theo ngày và lựa chọn ngôn ngữ bị xoá sạch mà không báo gì. Lỗi này đã có từ nhiều phiên bản trước, nay đã sửa. Việc gỡ chương trình vẫn xoá dữ liệu như cũ, đó là chủ ý.</p>
+        <p>Rất nên cập nhật, kể cả khi bạn chưa từng gặp.</p>
+      ]]></description>
+      <enclosure url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.21/ExamScan-1.0.21-x64.msi" length="75091919" type="application/octet-stream" sparkle:edSignature="hmhP/ks3L2/+05D5h2n30nQMSqESjkd/WC3GbSowjAd+X5Up015RGxJF84GEM6mUzz9Vh97m0k6ap4VFjf5BBA==" />
+    </item>
+
+    <item>
       <title>Version 1.0.20</title>
       <pubDate>Sat, 08 Aug 2026 22:01:09 +0700</pubDate>
       <sparkle:version>1.0.20</sparkle:version>
