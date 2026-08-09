@@ -7,6 +7,21 @@
     <language>vi</language>
 
     <item>
+      <title>Version 1.0.22</title>
+      <pubDate>Sun, 09 Aug 2026 11:33:22 +0700</pubDate>
+      <sparkle:version>1.0.22</sparkle:version>
+      <description><![CDATA[
+        <h3>Version 1.0.22</h3>
+        <ul>
+          <li><b>Chỉ mở được một cửa sổ ExamScan.</b> Trước đây mở được nhiều cửa sổ cùng lúc, và nếu chấm bài đồng thời ở hai cửa sổ thì số lượt chấm bị đếm sai — nặng nhất là khi bạn bấm quảng cáo ở cửa sổ này thì 30 lượt vừa nhận có thể bị cửa sổ kia xoá mất. Nay mở lần thứ hai sẽ đưa cửa sổ đang có lên trước. Hai tài khoản Windows khác nhau trên cùng máy vẫn dùng được đồng thời như thường.</li>
+          <li>Phần giữ số lượt chấm và thống kê khi cập nhật được viết lại, không còn dùng thành phần cũ mà Microsoft sắp gỡ khỏi Windows. Máy nào bị gỡ thành phần đó sẽ không còn nguy cơ mất dữ liệu khi nâng cấp.</li>
+        </ul>
+        <p><b>Nếu bạn đang dùng bản 1.0.19 trở về trước:</b> thư mục cài đã đổi từ 1.0.20, nên sau khi cập nhật xong hãy <b>mở lại ExamScan từ Start Menu hoặc lối tắt ngoài màn hình</b> — chỉ lần này thôi. Số lượt chấm và thống kê vẫn giữ nguyên.</p>
+      ]]></description>
+      <enclosure url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.22/ExamScan-1.0.22-x64.msi" length="75227081" type="application/octet-stream" sparkle:edSignature="6AtGlTtDzGVmppo/2f1F/D99wGdKY4FFdcp/sES7rzcfaLvqhWW9wJ4eOxPXtyyx7rtUHCXTLlD5PaWaJCmDBg==" />
+    </item>
+
+    <item>
       <title>Version 1.0.21</title>
       <pubDate>Sat, 08 Aug 2026 22:22:47 +0700</pubDate>
       <sparkle:version>1.0.21</sparkle:version>
