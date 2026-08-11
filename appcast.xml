@@ -7,6 +7,21 @@
     <language>vi</language>
 
     <item>
+      <title>Version 1.0.23</title>
+      <pubDate>Tue, 11 Aug 2026 17:32:42 +0700</pubDate>
+      <sparkle:version>1.0.23</sparkle:version>
+      <description><![CDATA[
+        <h3>Version 1.0.23</h3>
+        <ul>
+          <li><b>Tên file kết quả nay đổi theo ngôn ngữ bạn đang dùng.</b> Trước đây chỉ có hai tên: <code>KetQua.xlsx</code> cho giao diện tiếng Việt và <code>Result.xlsx</code> cho tất cả các ngôn ngữ còn lại. Nay tiếng Indonesia được <code>Hasil.xlsx</code>, tiếng Bồ Đào Nha <code>Resultado.xlsx</code>, tiếng Tây Ban Nha <code>Resultados.xlsx</code>. Nội dung bên trong file không đổi, nên ExamInsight vẫn đọc bình thường.</li>
+          <li><b>Mục Giới thiệu có thêm phần về ExamInsight</b> — chương trình miễn phí đọc file kết quả ExamScan vừa chấm rồi thống kê: điểm trung bình, tỷ lệ đạt, phân phối điểm, và quan trọng nhất là câu nào cả lớp sai nhiều nhất. Xuất báo cáo ra Excel hoặc PDF bằng một cú bấm.</li>
+        </ul>
+        <p>Bộ ba đã đủ: <b>ExamMixer</b> trộn đề → <b>ExamScan</b> chấm bài → <b>ExamInsight</b> phân tích kết quả.</p>
+      ]]></description>
+      <enclosure url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.23/ExamScan-1.0.23-x64.msi" length="75214793" type="application/octet-stream" sparkle:edSignature="+gyAXnLOEij5vUy6HY2d/jjgpjAA4//YUH1no2YR5aFfG2UnFoqTwTKHAH8FB1oxdNdhI3xVUhARk1MgUbwwCQ==" />
+    </item>
+
+    <item>
       <title>Version 1.0.22</title>
       <pubDate>Sun, 09 Aug 2026 11:33:22 +0700</pubDate>
       <sparkle:version>1.0.22</sparkle:version>
