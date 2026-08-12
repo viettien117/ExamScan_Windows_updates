@@ -7,6 +7,21 @@
     <language>vi</language>
 
     <item>
+      <title>Version 1.0.24</title>
+      <pubDate>Wed, 12 Aug 2026 22:36:04 +0700</pubDate>
+      <sparkle:version>1.0.24</sparkle:version>
+      <description><![CDATA[
+        <h3>Version 1.0.24</h3>
+        <ul>
+          <li><b>Dòng trạng thái và dòng “đang chấm file nào” nay đổi theo ngôn ngữ.</b> Trước đây, kể từ thao tác đầu tiên, hai dòng này đứng im ở ngôn ngữ lúc đó — chọn thư mục ảnh ở bản tiếng Việt rồi chuyển sang tiếng Anh thì dòng dưới đáy vẫn là tiếng Việt. Số lượng ảnh trong câu được giữ nguyên khi dịch lại.</li>
+          <li><b>Bộ cài nay coi một bản dựng lại cùng số phiên bản là nâng cấp.</b> Trước đây bản dựng lại mang cùng số không được nhận là nâng cấp, nên máy có thể hiện <b>hai mục ExamScan cùng lúc</b> trong danh sách chương trình. Đã thử thật trước khi phát hành: cài nối tiếp hai bản 1.0.24 khác nhau, số lượt chấm còn lại và thống kê theo ngày còn nguyên vẹn từng byte.</li>
+        </ul>
+        <p>Bộ ba: <b>ExamMixer</b> trộn đề → <b>ExamScan</b> chấm bài → <b>ExamInsight</b> phân tích kết quả.</p>
+      ]]></description>
+      <enclosure url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.24/ExamScan-1.0.24-x64.msi" length="75235273" type="application/octet-stream" sparkle:edSignature="jba2syoh88I7FLK+UB/OMMZOlI58ECsgOkJyUUaSSxXiP0vPDUBilKpSUamTH9y9O6GSEnrRohXm9Xn5fCIXAw==" />
+    </item>
+
+    <item>
       <title>Version 1.0.23</title>
       <pubDate>Tue, 11 Aug 2026 17:32:42 +0700</pubDate>
       <sparkle:version>1.0.23</sparkle:version>
