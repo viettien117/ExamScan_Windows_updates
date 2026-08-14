@@ -7,6 +7,22 @@
     <language>vi</language>
 
     <item>
+      <title>Version 1.0.25</title>
+      <pubDate>Fri, 14 Aug 2026 13:11:56 +0700</pubDate>
+      <sparkle:version>1.0.25</sparkle:version>
+      <description><![CDATA[        <h3>Version 1.0.25</h3>
+        <ul>
+          <li><b>Nút liên hệ trong mục Giới thiệu nay nói rõ nó làm gì.</b> Trước đây nhãn nút chính là địa chỉ email, không hề cho biết bấm vào thì chuyện gì xảy ra. Nay nhãn là <b>“Liên hệ hỗ trợ”</b>, còn địa chỉ nằm ngay dòng dưới để bạn vẫn đọc và chép được như cũ.</li>
+          <li><b>Bấm vào là thư đã điền sẵn.</b> Tiêu đề và nội dung có sẵn, kèm phiên bản ExamScan, phiên bản Windows và ngôn ngữ giao diện — bạn chỉ cần viết điều muốn hỏi. Khối thông tin máy nằm ở cuối thư và ghi rõ là <b>xoá được</b> nếu bạn không muốn gửi đi.</li>
+          <li><b>Máy chưa cài phần mềm thư thì không còn im lặng nữa.</b> Trước đây bấm vào là không có gì xảy ra cả, nên không thể phân biệt “chương trình hỏng” với “máy thiếu phần mềm thư”. Nay chương trình chép địa chỉ vào bộ nhớ tạm rồi chỉ bạn dán vào Gmail trên trình duyệt.</li>
+        </ul>
+        <p>Bộ ba: <b>ExamMixer</b> trộn đề → <b>ExamScan</b> chấm bài → <b>ExamInsight</b> phân tích kết quả.</p>
+
+]]></description>
+      <enclosure url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.25/ExamScan-1.0.25-x64.msi" length="75251657" type="application/octet-stream" sparkle:edSignature="xMQdQLuZaTSOGautvA0H4jSUtLzXwmvxk3Ef3Re5VOKOKI171IUUQcgvcIuBAfmxyeSCxCxFa6u4jqquoJpUBg==" />
+    </item>
+
+    <item>
       <title>Version 1.0.24</title>
       <pubDate>Wed, 12 Aug 2026 22:36:04 +0700</pubDate>
       <sparkle:version>1.0.24</sparkle:version>
