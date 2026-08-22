@@ -7,6 +7,23 @@
     <language>vi</language>
 
     <item>
+      <title>Version 1.0.26</title>
+      <pubDate>Sat, 22 Aug 2026 15:47:26 +0700</pubDate>
+      <sparkle:version>1.0.26</sparkle:version>
+      <description><![CDATA[
+        <h3>Version 1.0.26</h3>
+        <ul>
+          <li><b>Chương trình nay báo cho bạn biết khi file đáp án và phiếu không cùng số câu.</b> Trước đây trường hợp này bị bỏ qua hoàn toàn: chương trình lặng lẽ chấm phần chung rồi trả ra một con điểm trông hoàn toàn bình thường. Chọn nhầm file đáp án của khối khác thì không có dấu hiệu nào để nhận ra.</li>
+          <li><b>Cách chấm giữ nguyên như cũ, chỉ thêm dòng cảnh báo màu cam.</b> Bài vẫn được chấm và vẫn có điểm — cố ý như vậy, vì in một mẫu phiếu dài rồi dùng cho đề ngắn hơn là cách làm hợp lệ, và ExamMixer cũng tạo được bộ đề nhiều mã đề khác số câu. Chặn lại sẽ báo lỗi oan cho những người dùng đó.</li>
+          <li><b>Cảnh báo nêu đủ ba con số:</b> đáp án bao nhiêu câu, phiếu bao nhiêu câu, và thực sự chấm bao nhiêu câu đầu. Đọc một cái là biết mình đang ở trường hợp nào. Dòng file đó chuyển sang màu cam trong danh sách, nội dung đầy đủ nằm ở tooltip và trong cột <b>Lỗi</b> của file kết quả.</li>
+          <li><b>Cảnh báo tách hẳn khỏi lỗi.</b> Dòng cam không bị tính là phiếu hỏng, nên nút <b>Báo lỗi</b> không đòi gửi thư về những phiếu vẫn chấm bình thường.</li>
+        </ul>
+        <p>Bộ ba: <b>ExamMixer</b> trộn đề → <b>ExamScan</b> chấm bài → <b>ExamInsight</b> phân tích kết quả.</p>
+      ]]></description>
+      <enclosure url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.26/ExamScan-1.0.26-x64.msi" length="75239369" type="application/octet-stream" sparkle:edSignature="g7YzXe/Pcw3rKy9sM8De6aUwr12zyE3YWWOvQ/z6V4p9ipIRt0XA2GFQ3co266MEIzq4ECm2fOydrumy+sQYCg==" />
+    </item>
+    <item>
+
       <title>Version 1.0.25</title>
       <pubDate>Fri, 14 Aug 2026 13:11:56 +0700</pubDate>
       <sparkle:version>1.0.25</sparkle:version>
