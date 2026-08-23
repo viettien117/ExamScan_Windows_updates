@@ -7,6 +7,22 @@
     <language>vi</language>
 
     <item>
+      <title>Version 1.0.27</title>
+      <pubDate>Sun, 23 Aug 2026 13:16:30 +0700</pubDate>
+      <sparkle:version>1.0.27</sparkle:version>
+      <description><![CDATA[
+        <h3>Version 1.0.27</h3>
+        <ul>
+          <li><b>Phiếu chụp ngược hay chụp xoay ngang nay vẫn chấm được.</b> Trước đây chỉ ảnh chụp đúng chiều mới nhận ra được ba khung; để phiếu xoay 180° là chương trình báo <b>&#8220;Không phát hiện được khung&#8221;</b> và không chấm nổi một câu nào. Nay xoay góc nào cũng cho ra <b>đúng cùng một kết quả</b>.</li>
+          <li><b>Lấy nguyên lý từ mã QR.</b> Ba ô vuông ở góc phiếu chính là <i>finder pattern</i> — cùng thứ giúp máy quét mã QR thanh toán đọc được dù bạn cầm điện thoại ngược. Điểm mấu chốt: nhận ra góc trên-trái bằng <b>hình dạng chữ L của ba ô</b>, chứ không phải bằng ô nào nằm phía trên trong khung hình.</li>
+          <li><b>Đo trên toàn bộ bộ phiếu mẫu:</b> 18 ảnh từ 10 đến 60 câu, so ảnh đúng chiều với ảnh xoay 180° — <b>18/18 chuỗi đáp án trùng nhau từng ký tự</b>, không ảnh nào hỏng. Ảnh chụp đúng chiều cho điểm y hệt bản trước, không đổi gì.</li>
+        </ul>
+        <p>Bộ ba: <b>ExamMixer</b> trộn đề → <b>ExamScan</b> chấm bài → <b>ExamInsight</b> phân tích kết quả.</p>
+      ]]></description>
+      <enclosure url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.27/ExamScan-1.0.27-x64.msi" length="75239369" type="application/octet-stream" sparkle:edSignature="1hA6WvrPLzgoXyljBoDNvXs8AHaL3KGK/EWHiIlsUxEiegm2kt/qzbID2IMxMYtVDEGZCDe/GeH4ykWoT6vwCQ==" />
+    </item>
+
+    <item>
       <title>Version 1.0.26</title>
       <pubDate>Sat, 22 Aug 2026 15:47:26 +0700</pubDate>
       <sparkle:version>1.0.26</sparkle:version>
