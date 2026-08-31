@@ -7,6 +7,22 @@
     <language>vi</language>
 
     <item>
+      <title>Version 1.0.29</title>
+      <pubDate>Mon, 31 Aug 2026 13:03:16 +0700</pubDate>
+      <sparkle:version>1.0.29</sparkle:version>
+      <description><![CDATA[
+        <h3>Version 1.0.29</h3>
+        <ul>
+          <li><b>Nhãn câu hỏi viết bằng tiếng Indonesia hay tiếng Tây Ban Nha nay được chấp nhận.</b> Chương trình có giao diện năm thứ tiếng, nhưng phần kiểm file đáp án chỉ nhận nhãn bắt đầu bằng <b>c</b> hoặc <b>q</b> — tức <i>Câu 1</i>, <i>Question 1</i>, <i>Questão 1</i>. Còn <i>Soal 1</i> và <i>Pregunta 1</i> thì bị từ chối thẳng.</li>
+          <li><b>Điều tệ nhất là chính chương trình bảo họ viết như vậy.</b> Cả thông báo lỗi lẫn mục Hỏi đáp đều hướng dẫn đúng hai chữ đó. Người dùng làm theo, bị từ chối, đọc lại thông báo thì thấy bảo làm đúng cái vừa hỏng — <b>hai trong năm ngôn ngữ không dùng nổi tính năng chính</b>.</li>
+          <li><b>Đã kiểm đủ cả năm:</b> <i>Câu 1</i>, <i>Question 1</i>, <i>Questão 1</i>, <i>Soal 1</i>, <i>Pregunta 1</i> — nạp được hết, cùng với cách ghi số trơ <i>1, 2, 3</i>. Lớp bảo vệ chống chọn nhầm file vẫn giữ nguyên: nhãn kiểu <i>Bài 1</i> vẫn bị từ chối.</li>
+        </ul>
+        <p>Bộ ba: <b>ExamMixer</b> trộn đề → <b>ExamScan</b> chấm bài → <b>ExamInsight</b> phân tích kết quả.</p>
+      ]]></description>
+      <enclosure url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.29/ExamScan-1.0.29-x64.msi" length="75243465" type="application/octet-stream" sparkle:edSignature="btu8DYdcr/UGBxAlyx7rJd5rNGpwC8MGDL9LUrXQVJY6QTrRHD8k8Cuo1XhYeWJEFKu4UqaanFt1y4Iz8BpZBg==" />
+    </item>
+
+    <item>
       <title>Version 1.0.28</title>
       <pubDate>Mon, 31 Aug 2026 10:21:13 +0700</pubDate>
       <sparkle:version>1.0.28</sparkle:version>
