@@ -7,6 +7,22 @@
     <language>vi</language>
 
     <item>
+      <title>Version 1.0.30</title>
+      <pubDate>Mon, 31 Aug 2026 15:57:07 +0700</pubDate>
+      <sparkle:version>1.0.30</sparkle:version>
+      <description><![CDATA[
+        <h3>Version 1.0.30</h3>
+        <ul>
+          <li><b>Nút &#8220;Tải mẫu đáp án&#8221; nay tải đúng một file 12 KB.</b> Nút này mới thêm ở bản trước, ngay trong hộp thoại báo lỗi nạp đáp án — nhưng nó lại trỏ vào gói mẫu đầy đủ, <b>nặng 261 MB</b> vì gồm cả phiếu in và ảnh chụp demo. Người vừa nạp đáp án hỏng, đang bực, bấm đúng nút được mời, rồi ngồi chờ tải 261 MB để lấy về một bảng tính.</li>
+          <li><b>Hai đường cho hai nhu cầu khác hẳn nhau.</b> Nút ở màn hình <i>Giới thiệu</i> vẫn tải gói đầy đủ — ai cần phiếu in thì lấy ở đó. Còn chỗ báo lỗi thì chỉ đưa đúng thứ đang thiếu: một file <i>AnswerKey-Template.xlsx</i>.</li>
+          <li><b>File mẫu sinh ra từ chính bộ mã đọc–ghi .xlsx của chương trình</b> — cùng bộ vẫn dùng để xuất bảng điểm. 40 câu &#215; 4 mã đề; cột A ghi <b>số trơ</b> nên mở ở ngôn ngữ nào cũng nạp được, phần hướng dẫn đặt riêng ở cột G.</li>
+        </ul>
+        <p>Bộ ba: <b>ExamMixer</b> trộn đề → <b>ExamScan</b> chấm bài → <b>ExamInsight</b> phân tích kết quả.</p>
+      ]]></description>
+      <enclosure url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.30/ExamScan-1.0.30-x64.msi" length="75239369" type="application/octet-stream" sparkle:edSignature="5qvgcObMS21Mg2yJPEocR7cDoK9qo+qn7C/1hb3r8/mgJpWgJiGtnWtSP9DvRl/shlRW99mwm4wKEo+gqRvpCg==" />
+    </item>
+
+    <item>
       <title>Version 1.0.29</title>
       <pubDate>Mon, 31 Aug 2026 13:03:16 +0700</pubDate>
       <sparkle:version>1.0.29</sparkle:version>
