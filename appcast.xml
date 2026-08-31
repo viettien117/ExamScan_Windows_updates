@@ -7,6 +7,24 @@
     <language>vi</language>
 
     <item>
+      <title>Version 1.0.28</title>
+      <pubDate>Mon, 31 Aug 2026 10:21:13 +0700</pubDate>
+      <sparkle:version>1.0.28</sparkle:version>
+      <description><![CDATA[
+        <h3>Version 1.0.28</h3>
+        <ul>
+          <li><b>File đáp án trước đây bị từ chối oan nay nạp được.</b> Bản Windows và bản di động dùng chung một bộ mã đọc file .xlsx. Số đo từ bản di động: trong sáu ngày có <b>64 lần nạp đáp án thất bại của 18 người</b>, trong khi cả kỳ chỉ 8 lần thành công. Lỗi nằm đó đã lâu — mãi tới khi có số đo mới lộ ra.</li>
+          <li><b>Cột A nay nhận cả số trơ.</b> Trước đây nhãn câu hỏi bắt buộc bắt đầu bằng chữ — <b>Câu 1</b>, <b>Question 1</b> — nên bảng đánh số <b>1, 2, 3</b> bị từ chối thẳng, dù đó là cách lập bảng tự nhiên nhất.</li>
+          <li><b>Đọc đúng trang tính thay vì đoán tên.</b> Trước đây chương trình luôn tìm trang tính ở một đường dẫn cố định bên trong file .xlsx. Chuẩn Office không hề bảo đảm tên đó — file do công cụ khác tạo, hoặc file đã xoá trang đầu rồi thêm trang mới, là <b>không đọc nổi một dòng nào</b>. Nay chương trình tra đúng mục lục nằm trong file.</li>
+          <li><b>Hai loại lỗi, hai thông báo.</b> Chọn nhầm file <b>.xls</b> đời cũ trước đây cũng bị báo là <b>&#8220;sai mẫu&#8221;</b> — bạn mở file ra kiểm, thấy mẫu đúng y hướng dẫn, rồi thử lại, rồi lại hỏng. Nay chương trình nói rõ là <b>không đọc được file</b>, kèm cách chuyển sang .xlsx.</li>
+          <li><b>Chỗ báo lỗi nay mời tải luôn file mẫu.</b> Người vừa bị từ chối chính là người cần file mẫu nhất, mà trước đó đường duy nhất tới nó nằm trong màn hình Giới thiệu.</li>
+        </ul>
+        <p>Bộ ba: <b>ExamMixer</b> trộn đề → <b>ExamScan</b> chấm bài → <b>ExamInsight</b> phân tích kết quả.</p>
+      ]]></description>
+      <enclosure url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.0.28/ExamScan-1.0.28-x64.msi" length="75218889" type="application/octet-stream" sparkle:edSignature="flNeMiuVWQD9dqWZuz64AUzrcnU35V6AJEvZAMHFiotIwz9zLsPuGYmX4dw2JAK5Za9KLroH35nyqvK2/NL+AQ==" />
+    </item>
+
+    <item>
       <title>Version 1.0.27</title>
       <pubDate>Sun, 23 Aug 2026 13:16:30 +0700</pubDate>
       <sparkle:version>1.0.27</sparkle:version>
