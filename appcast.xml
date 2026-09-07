@@ -6,7 +6,10 @@
     <description>Auto-update feed for ExamScan</description>
     <language>vi</language>
 
-    <item>
+    <item><title>Version 1.1.0</title><pubDate>Mon, 07 Sep 2026 11:31:25 +0700</pubDate><sparkle:version>1.1.0</sparkle:version><description><![CDATA[
+        <h3>Version 1.1.0</h3>
+        <p>Giao diện dựng lại hoàn toàn — nhẹ hơn, mở nhanh hơn, bộ cài giảm từ 71,8 MB xuống 58,9 MB. Thanh điều hướng dọc mới, chia nhóm rõ ràng. Sửa lỗi một số hộp thoại không hiện thông báo. Dữ liệu và số lượt chấm của bạn được giữ nguyên khi nâng cấp.</p>
+      ]]></description><enclosure url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.1.0/ExamScan-1.1.0-x64.msi" length="61819111" type="application/octet-stream" sparkle:version="1.1.0" sparkle:os="windows" sparkle:edSignature="X/qbPEDR4WnZflqa23KX8WogrYOA9ymMEYc6z2Zkwk46v+TjG+kMGJO64Ef+Xvt2beEpMj9W5Y7bR4V4a7gTAA==" /></item><item>
       <title>Version 1.0.30</title>
       <pubDate>Mon, 31 Aug 2026 15:57:07 +0700</pubDate>
       <sparkle:version>1.0.30</sparkle:version>
