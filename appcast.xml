@@ -6,7 +6,10 @@
     <description>Auto-update feed for ExamScan</description>
     <language>vi</language>
 
-    <item><title>Version 1.1.2</title><pubDate>Tue, 08 Sep 2026 10:59:49 +0700</pubDate><sparkle:version>1.1.2</sparkle:version><description><![CDATA[
+    <item><title>Version 1.1.3</title><pubDate>Wed, 09 Sep 2026 06:49:13 +0700</pubDate><sparkle:version>1.1.3</sparkle:version><description><![CDATA[
+        <h3>Version 1.1.3</h3>
+        <p>Sửa lỗi logo tròn nhiều vòng đồng tâm (huy hiệu câu lạc bộ, con dấu nhà trường) trên phiếu làm hỏng cả quá trình chấm: bộ dò dấu góc có thể nhận nhầm chúng là dấu định vị. Nay ba dấu góc được chọn theo độ đồng đều kích thước thay vì lấy ba hình lớn nhất, nên vật lạ không còn hất dấu thật ra ngoài. Nút cài đặt trong cửa sổ cập nhật nay hiện đúng ngôn ngữ của chương trình.</p>
+      ]]></description><enclosure url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.1.3/ExamScan-1.1.3-x64.msi" length="61831406" type="application/octet-stream" sparkle:version="1.1.3" sparkle:os="windows" sparkle:edSignature="oVNcwkXT0bQnHZpwHCvmkD7Bw5zOIRYeO1t/TIl5exp4krmi7tTusvW1d/HN0G4AGlvM8C10GzAeoEKZ9ZhoAA==" /></item><item><title>Version 1.1.2</title><pubDate>Tue, 08 Sep 2026 10:59:49 +0700</pubDate><sparkle:version>1.1.2</sparkle:version><description><![CDATA[
         <h3>Version 1.1.2</h3>
         <p>Sửa hai lỗi chấm. Phiếu có mã đề 4 chữ số trước đây không bao giờ khớp file đáp án — chương trình chỉ đọc 3 chữ số đầu; tệ hơn, toàn bộ đáp án bị lệch đi một câu, nên nếu mã đề vô tình khớp thì điểm trông hợp lý mà sai hết. Ảnh HEIC của iPhone khi chấm lần đầu có thể mất một phiếu hoặc làm chương trình báo lỗi. Ngoài ra, chỗ báo lỗi nay nói rõ câu nào chưa tô đen hay tô đen nhiều lần, áp dụng cho cả số báo danh và mã đề thi. Nâng lõi chấm lên 1.0.9.</p>
       ]]></description><enclosure url="https://github.com/viettien117/ExamScan_Windows_updates/releases/download/v1.1.2/ExamScan-1.1.2-x64.msi" length="61831406" type="application/octet-stream" sparkle:version="1.1.2" sparkle:os="windows" sparkle:edSignature="Opuo+HE+d6RKoT688yEDAdL7kLfXoOpY0l2n4+8+v31qI7g3lPVLQdOzhQs7A4Ih1SaM9PrUApwO/7Ri5Wb+CQ==" /></item><item><title>Version 1.1.1</title><pubDate>Mon, 07 Sep 2026 16:29:08 +0700</pubDate><sparkle:version>1.1.1</sparkle:version><description><![CDATA[
